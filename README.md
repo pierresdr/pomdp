@@ -3,7 +3,7 @@
 Trying to reproduce the results from the paper *Point-based value iteration: An anytime algorithm for POMDPs* by Joelle Pineau, Geoff Gordon and Sebastian Thrun (2003) on the Tag environment. 
 
 ## Algorithm
-The PBVI algorithm alternates between belief expansion in order to 
+The PBVI algorithm alternates between point-based value iteration and belief expansion in order to approximate the real value function of the pomdp.
 
 ## Environment
 See my implementation on pomdp environment on gym at:
